@@ -11,13 +11,23 @@ public class Notas {
     public static void main(String[] args){
        CodigoNotas cod = new CodigoNotas();
        Scanner ler = new Scanner(System.in);
-       do {
+
+        System.out.println("Digite a materia a qual queira saber a media ");
+         cod.setMateria(ler.nextLine());
+        System.out.println("Digite a nota do seu primeiro trimestre");
+        cod.setNum1(ler.nextDouble());
+        System.out.println("Digite a nota do seu segndo trimestre");
+        cod.setNum2(ler.nextDouble());
+        System.out.println("Digite a nota do seu terceiro trimestre");
+        cod.setNum3(ler.nextDouble());
            cod.calculadorDeMedia();
-           System.out.println("Deseja continuar calculando \n S/N");
-
-       }while (ler.nextLine().equalsIgnoreCase("s"));
 
 
+
+
+
+
+    }
 }
-}
+
 
