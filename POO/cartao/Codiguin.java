@@ -52,7 +52,7 @@ public class Codiguin {
 
 
     public double ifes(){
-    saldoAtual =  saldo-(debito+credito);
+   this.saldoAtual =  this.saldo-(this.debito+this.credito);
     return saldoAtual;
     }
 

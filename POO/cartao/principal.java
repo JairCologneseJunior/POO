@@ -18,8 +18,7 @@ Codiguin cod = new Codiguin();
         cod.setDebito(ler.nextDouble());
         System.out.println("Digite a quantidade de credito que você tem");
         cod.setCredito(ler.nextDouble());
-            System.out.println("Esse e seu saldo atual" + cod.getCredito());
-
+        System.out.println( "Seu saldo atual é:" +cod.ifes());
     }
 }
 
